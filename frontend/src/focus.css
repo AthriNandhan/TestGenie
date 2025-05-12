@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-myfont: #8bc9ff;
+  --color-navlight: #ffffff;
+  --color-navdark: #293343;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("./assets/Images/Background.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+}

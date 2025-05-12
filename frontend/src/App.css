@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.CSSMAX {
+  border-radius: 6px;
+  background-color: rgb(16, 71, 190);
+  outline: 2px solid rgb(82, 157, 255);
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  transition:
+    scale 0.2s,
+    padding 0.4s,
+    background-color 0.2s;
+}
+
+.CSSMAX:hover {
+  scale: 150%;
+  padding: 12px;
+  outline: 2px solid white;
+  background-color: rgb(122, 180, 255);
+}
