@@ -116,7 +116,7 @@ def testcases():
     global geminiresult
     from google import genai
     global geminiprompt
-    client = genai.Client(api_key="AIzaSyAV4pnsubzKXjvzDXExIxfHpoYL9YXYM5E")
+    client = genai.Client(api_key="")
     response = client.models.generate_content(
         model="gemini-1.5-flash", contents=geminiprompt
     )
